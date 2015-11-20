@@ -68,4 +68,17 @@ abstract class AbstractMessageBuilder
 
         return $this;
     }
+
+    public function getVideo()
+    {
+
+    }
+
+    public function setVideoFile($video)
+    {
+        $this->message->setVideoFile($video);
+
+        return $this;
+    }
+
 }

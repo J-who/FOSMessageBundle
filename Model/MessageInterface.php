@@ -55,4 +55,16 @@ interface MessageInterface extends ReadableInterface
      * @return null
      */
     function setSender(ParticipantInterface $sender);
+
+    /**
+     * @param  string
+     * @return null
+     */
+    function setVideoFile($video);
+
+    /**
+     * @return string
+     */
+    function getVideo();
+
 }
